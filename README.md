@@ -30,8 +30,6 @@ There's been lots of recent work on compressing cfd simulators ([see: cool space
 I bet this would work and that you could make it computationally tractable.
 
 
-Note: I don't mean 
-
 ## Fast Human Deep Space Travel (physics)
 To get anywhere fast, you'd have to accelerate for half the journey, and deccelerate for the second half. The problem is that humans degrade unless stored at 1g, which means you could never accelerate at more than 1g. Sounds slow!
 
