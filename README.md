@@ -30,6 +30,8 @@ There's been lots of recent work on compressing cfd simulators ([see: cool space
 
 I bet this would work and that you could make it computationally tractable.
 
+Note: I don't mean 'train a 3D recurrent CNN to model a numerical simulator' -- I mean 'train a 3D recurrent CNN to dynamically control cell size/particle size/ timestep of a numerical simulation so that it outputs the right thing with minimum resources'.
+
 
 ## Fast Human Deep Space Travel (physics)
 To get anywhere fast, you'd have to accelerate for half the journey, and deccelerate for the second half. The problem is that humans degrade unless stored at 1g, which means you could never accelerate at more than 1g. Sounds slow!
