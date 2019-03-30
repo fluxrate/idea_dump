@@ -18,17 +18,19 @@ Maybe you could use this to scan a Drosphilia brain. Best case you only get the 
 
 See: [comments from Adam Marblestone](https://twitter.com/AdamMarblestone/status/1060259368246145024).
 
-## Solving Fusion (physics, optics)
+## Solving Fusion (physics, ai)
 Fusion research is in this weird place where there are lots of possible approaches, but nobody knows for sure if one is going to work ahead of time because nobody has an accurate simulator for the plasma regime they are in. This means that researchers have to *spend a decade and $10-500M building a machine before they know if it will work*.
 
 Modelling plasma is really really hard. Plasma has structure on many different spactial and temporal scales, and often you decide upon a level of abstraction to simulate at but get completely fucked over when you build the experiment in real life because your simulator abstraction inadvertently missed out some weird plasma phenomenon that makes your machine not work (see: NIF, ITER, etc etc).
 
-The lowest level of abstraction is [modelling each particle](http://www.ss.ncu.edu.tw/~lyu/lecture_files_en/lyu_SPP_Book_A4format_pdf_html/pdf_1_Ch/lyu_SPP_Chapter_2.pdf) (the Klimontovich Description) which is computationally impossible for a large plasmas even using the world's biggest supercomputer, but would probably work pretty well.
+The lowest level of abstraction is [modelling each particle](http://www.ss.ncu.edu.tw/~lyu/lecture_files_en/lyu_SPP_Book_A4format_pdf_html/pdf_1_Ch/lyu_SPP_Chapter_2.pdf) (the Klimontovich Description) which is computationally impossible for a large plasmas even using the world's biggest supercomputer, but would probably work pretty well if you actually had the resources.
 
-There's been lots of recent work on compressing cfd simulators ([see: cool spacex video on wavelet compression](https://www.youtube.com/watch?v=txk-VO1hzBY)), which might be a useful direction (I don't think people are even doing this right now), but I think the really paradigm-shifting approach would be to *learn what approximations you can make with deep learning*. i.e. start from the Klimontovich Description, and have a collection of neural nets that dynamically adjust the fidelity of the approximation (cell size, superparticle size, interaction length etc etc) for different regions of space and time, trained to make the decompressed simulator evolve identically to the full simulation.
+There's been lots of recent work on compressing cfd simulators ([see: cool spacex video on wavelet compression](https://www.youtube.com/watch?v=txk-VO1hzBY)), which might be a useful direction (I don't think people are even doing this right now), but I think the really paradigm-shifting approach would be to *learn what approximations you can make (with deep learning) to keep the simulation both efficient and high-fidelity*. i.e. start from the Klimontovich Description, and have a collection of neural nets that dynamically adjust the fidelity of the approximation (cell size, superparticle size, interaction length etc etc) for different regions of space and time, trained to make the decompressed simulator evolve identically to the full simulation. Your training data (full Klimontovich for small plasmas) would be expensive to obtain, but I think the outcome would be worth it
 
 I bet this would work and that you could make it computationally tractable.
 
+
+Note: I don't mean 
 
 ## Fast Human Deep Space Travel (physics)
 To get anywhere fast, you'd have to accelerate for half the journey, and deccelerate for the second half. The problem is that humans degrade unless stored at 1g, which means you could never accelerate at more than 1g. Sounds slow!
