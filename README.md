@@ -19,7 +19,7 @@ Maybe you could use this to scan a Drosphilia brain. Best case you only get the 
 
 See: [comments from Adam Marblestone](https://twitter.com/AdamMarblestone/status/1060259368246145024).
 
-## Solving Fusion -- Plasma Simulation with Learned Dynamic Approximation (physics, ai)
+## Nuclear Fusion: Plasma Simulation with Learned Dynamic Approximation (physics, ai)
 Fusion research is in this weird place where there are lots of possible approaches, but nobody knows for sure if one is going to work ahead of time because nobody has an accurate simulator for the plasma regime they are in. This means that researchers have to *spend a decade and $10-500M building a machine before they know if it will work*.
 
 Modelling plasma is really really hard. Plasma has structure on many different spactial and temporal scales, and often you decide upon a level of abstraction to simulate at but get completely fucked over when you build the experiment in real life because your simulator abstraction inadvertently missed out some weird plasma phenomenon that makes your machine not work (see: NIF, ITER, etc etc).
