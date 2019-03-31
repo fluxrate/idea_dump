@@ -21,7 +21,7 @@ See: [comments from Adam Marblestone](https://twitter.com/AdamMarblestone/status
 ## Nuclear Fusion: Plasma Simulation with Learned Dynamic Approximation (physics, ai)
 Fusion research is in this weird place where there are lots of possible approaches, but nobody knows for sure if one is going to work ahead of time because nobody has an accurate simulator for the plasma regime they are in. This means that researchers have to *spend a decade and $10-500M building a machine before they know if it will work*.
 
-Modelling plasma is really really hard. Plasma has structure on many different spactial and temporal scales, and often you decide upon a level of abstraction to simulate at but get completely screwed over when you build the experiment in real life because your simulator abstraction inadvertently missed out some weird plasma phenomenon that makes your machine not work (see: NIF, JET, TFTR, probably ITER, etc).
+Modelling plasma is really really hard. Plasma has structure on many different spactial and temporal scales, and often you decide upon a level of abstraction to simulate at but get completely screwed over when you build the experiment in real life because your simulator abstraction inadvertently missed out some weird plasma phenomenon that makes your machine not work (see: NIF, JET, TFTR, probably ITER etc etc).
 
 The lowest level of abstraction is [modelling each particle](http://www.ss.ncu.edu.tw/~lyu/lecture_files_en/lyu_SPP_Book_A4format_pdf_html/pdf_1_Ch/lyu_SPP_Chapter_2.pdf) (the Klimontovich Description) which is computationally impossible for a large plasmas even using the world's biggest supercomputer, but would probably work pretty well if you actually had the resources.
 
