@@ -16,7 +16,7 @@ TLDR: an idea to exploit properties of diffraction patterns to scan a small obje
 
 Maybe you could use this to scan a Drosphilia brain. Best case you only get the structure, not the synaptic weights or neurotransmitter concentrations... but ya gotta start somewhere!
 
-See: [comments from Adam Marblestone](https://twitter.com/AdamMarblestone/status/1060259368246145024).
+See: [comments from Adam](https://twitter.com/AdamMarblestone/status/1060259368246145024).
 
 ## Nuclear Fusion: Plasma Simulation with Learned Dynamic Approximation (physics, ai)
 Fusion research is in this weird place where there are lots of possible approaches, but nobody knows for sure if one is going to work ahead of time because nobody has an accurate simulator for the plasma regime they are in. This means that researchers have to *spend a decade and $10-500M building a machine before they know if it will work*.
