@@ -79,11 +79,3 @@ Cameras still feel hacky, though... Ideally you'd get some material with a resis
 ## Long-Distance Penetrative Sensing (physics)
 Extend [this work](http://rfpose.csail.mit.edu/) using ultra-wideband radio pulses, an array of a few thousand 3D printed UWB antennas and a phased-array scanning beam. You should be able to penetratively scan an entire building to a resolution of one cm or so. Sweet dreams, citizen.
 
-
-## Longevity (physics)
-If you can invert the scattering of the human body (like Mary Lou Jepsen is trying to do -- completely physically possible, so will surely happen eventually), you could do something like her brain scanning idea, except to image every cell in the human body. Senescent cells are suprisingly easy to detect visually, and the technology to zap them with focussed infrared light is the inverse of the technology needed to image them. You could imagine some giant room which bathes you in a gentle red light, and when you walk out, all your senescent cells would have been destroyed.
-
-(note: this is especially hard because the position of each cell shifts as you move/as your heart beats. So you'd have to get smart with hardware+processing... maybe easier to do with bio)
-
-## Intelligence Augmentation (AI, neuroscience)
-If the neocortex really does apply a top-down prediction of the future to incoming sensory data, then perhaps there would be an easy and pretty cool way to boost your brainpower WITHOUT knowing what the neural patterns actually mean: add an extra layer on top that does the same thing artificially. Imagine some high-resolution input/output BMI that covers the surface of the cortex. It records your neural activations, and uses this as training data for an extremely high-powered recurrent neural net. The neural net predicts what's going to happen next, and then stimulates the cortex with the pattern it expects. Would this work? What would it feel like? Which bits would be conscious?
