@@ -27,8 +27,6 @@ The lowest level of abstraction is [modelling each particle](http://www.ss.ncu.e
 
 There's been lots of recent work on compressing cfd simulators ([see: cool spacex video on wavelet compression](https://www.youtube.com/watch?v=txk-VO1hzBY)), which might be a useful direction (I don't think people are even doing this right now), but I think the really paradigm-shifting approach would be to *learn what approximations you can make (with deep learning) to keep the simulation both efficient and high-fidelity*. i.e. start from the Klimontovich Description, and have a collection of neural nets that dynamically adjust the grain-size of the approximation (cell size, superparticle size, timestep, energy spectrum precision, interaction length etc etc) for different regions of space and time, trained to make the decompressed simulator evolve identically to the full simulation. Your training data (full Klimontovich for small plasmas) would be expensive to obtain, but I think the outcome would be worth it, and you might not actually need that much of it.
 
-I bet this would work and that you could make it computationally tractable.
-
 Note: I don't mean 'train a 3D recurrent CNN to model a numerical simulator' -- I mean 'train a 3D recurrent CNN to dynamically control cell size/particle size/ timestep of a numerical simulation so that it outputs the right thing with minimum resources'.
 
 
