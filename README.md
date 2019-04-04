@@ -1,5 +1,6 @@
 # Idea Dump
 
+have found it useful to put ideas here to stop thinking about them. most get deleted.
 
 ## Cheap Neuron-Resolution Brain Scanning (physics, optics)
 TLDR: an idea to exploit properties of diffraction patterns to scan a small object at extremely high resolution using a cheap camera sensor. 
