@@ -91,8 +91,8 @@ genes are optimized to span the space of useful environmental adaptation (popula
 
 mutations are mainly selected for on expressed genes (if it's not expressed then survival of the fittest doesn't apply)
 
-so there's a slow adaptation (base pair mutation) guided by a fast one (gene selection)
+so there's a slow adaptation (base pair mutation) guided by a fast one (recombination)
 
-maybe this makes natural evolution much faster?
+maybe this makes natural evolution much more efficient?
 
-maybe some basic errors in bio understanding but I do think there's probably a way to do really good AI evolution much more quickly than people think. maybe easier to just figure ai out manually at this point.
+maybe some basic errors in bio understanding here but I do think there's probably a way to do really good AI evolution much more quickly than people think. maybe easier to just figure ai out manually at this point.
