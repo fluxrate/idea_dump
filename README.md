@@ -95,4 +95,6 @@ so there's a slow adaptation (base pair mutation) guided by a fast one (recombin
 
 maybe this makes natural evolution much more efficient?
 
-maybe some basic errors in bio understanding here but I do think there's probably a way to do really good AI evolution much more quickly than people think. maybe easier to just figure ai out manually at this point.
+and presumably the DNA code is optimized in some sense so that base pair mutations produce meaningful changes that don't kill the organism.
+
+So is there a way to define a genetic code for AI that has the ability to span the whole problem space, for which base pair mutations are meaningful and often useful, and all optimized via some fast/slow guided mutation process?
