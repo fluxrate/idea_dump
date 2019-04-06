@@ -75,6 +75,24 @@ Cameras still feel hacky, though... Ideally you'd get some material with a resis
 
 
 
+
+
 ## Long-Distance Penetrative Sensing (physics)
 Extend [this work](http://rfpose.csail.mit.edu/) using ultra-wideband radio pulses, an array of a few thousand 3D printed UWB antennas and a phased-array scanning beam. You should be able to penetratively scan an entire building to a resolution of one cm or so. Sweet dreams, citizen.
 
+
+## Random
+
+Thinking about evolution for AI design...
+
+Interplay between genetic recombination and base pair mutation is quite interesting I think.
+
+genes are optimized to span the space of useful environmental adaptation (population has to adapt quickly to environment change)
+
+mutations are mainly selected for on expressed genes (if it's not expressed then survival of the fittest doesn't apply)
+
+so there's a slow adaptation (base pair mutation) guided by a fast one (gene selection)
+
+maybe this makes natural evolution much faster?
+
+maybe some basic errors in bio understanding but I do think there's probably a way to do really good AI evolution much more quickly than people think. maybe easier to just figure ai out manually at this point.
